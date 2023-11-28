@@ -3,6 +3,8 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 
+
+
 import Home from './src/routes/home';
 import Inicial from './src/routes/Inicial';
 
@@ -26,14 +28,14 @@ export default function App() {
         <Stack.Screen
           name='Inicial'
           component={Inicial}
-          options={{ headerShown: true, headerTitle:'Menu' }}
+          options={{ headerShown: false, headerTitle:'Menu' }}
 
         />
 
         <Stack.Screen
           name="Mapa"
           component={Mapa}
-          options={{ headerShown: true }}
+          options={{ headerShown: false }}
         />
         <Stack.Screen
           name="Sobre"

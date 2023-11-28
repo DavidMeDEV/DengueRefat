@@ -52,11 +52,13 @@ export default function Inicial(){
 const styles=StyleSheet.create({
     container:{
         flex: 1,
+        flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#46a24f'
     },
     buttom:{
+        marginHorizontal:10,
         borderWidth:3,
         borderRadius:13,
         alignItems:"center",
