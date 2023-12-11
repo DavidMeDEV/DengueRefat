@@ -44,8 +44,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     viewop: {
-        width: 30,
-        height: 30,
+        width: 60,
+        height: 50,
         borderWidth: 1,
         borderRadius: 20,
         opacity: 0.4,

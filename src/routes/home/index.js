@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#46a24f'
+        backgroundColor: '#026014'
     },
     toContainer: {
         marginTop: 20,
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
         color: '#fff',
         textShadowColor: '#be0700',
         textShadowOffset: { width: 1, height: 2 },
-        textShadowRadius: 5, padding: 10, borderRightWidth: 1, borderBottomWidth: 1, borderColor: '#46a24f'
+        textShadowRadius: 5, padding: 10, borderRightWidth: 1, borderBottomWidth: 1, borderColor: '#026014'
 
     },
     logo: {

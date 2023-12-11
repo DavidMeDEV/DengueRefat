@@ -3,8 +3,6 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 
-
-
 import Home from './src/routes/home';
 import Inicial from './src/routes/Inicial';
 
@@ -28,7 +26,7 @@ export default function App() {
         <Stack.Screen
           name='Inicial'
           component={Inicial}
-          options={{ headerShown: false, headerTitle:'Menu' }}
+          options={{headerBackVisible:false, headerShown: true, headerTitle:'Menu' , headerTintColor:'red', headerStyle:{backgroundColor:'#e5e5e0'}, headerShadowVisible:false}}
 
         />
 
@@ -40,12 +38,12 @@ export default function App() {
         <Stack.Screen
           name="Sobre"
           component={Sobre}
-          options={{ headerShown: true }}
+          options={{ headerShown: true, headerTitle:'Detalhes', headerTintColor:'red', headerStyle:{backgroundColor:'#e5e5e0'}, headerShadowVisible:false}}
         />
         <Stack.Screen
           name="Contato"
           component={Contato}
-          options={{ headerShown: true }}
+          options={{ headerShown: true, headerTintColor:'red', headerStyle:{backgroundColor:'#e5e5e0'}, headerShadowVisible:false}}
         />
       </Stack.Navigator>
     </NavigationContainer>

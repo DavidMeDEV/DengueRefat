@@ -21,14 +21,14 @@ export default function Inicial(){
                 </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={[styles.buttom, {paddingHorizontal:18}]} onPress={() => navi.navigate('Sobre')}>
+            <TouchableOpacity style={[styles.buttom, {paddingHorizontal:8}]} onPress={() => navi.navigate('Sobre')}>
                 <View style={styles.buttomConfig}>
                 <MaterialIcons
                         name="description"
                         size={50}
                         color={'white'}
                     />
-                    <Text style={styles.buttomtxt}>Sobre</Text>
+                    <Text style={styles.buttomtxt}>Detalhes</Text>
                 </View>
             </TouchableOpacity>
            
@@ -55,7 +55,7 @@ const styles=StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#46a24f'
+        backgroundColor: '#026014',
     },
     buttom:{
         marginHorizontal:10,
